@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Grid--------------------------- */
+
+body {
+  background: #474747;
+  max-width: 56%;
+  margin: 1.5% auto;
+}
+
+section {
+  width: 75%;
+  float: right;
+}
+
+aside {
+  width: 25%;
+  float: left;
+}
+
+footer {
+  clear: both;
+}
+
+/* General styling */
+
+body {
+  font-family: "Lucida Grande", "Lucida Sans Unicode";
+  font-size: 12px;
+}
+
+.heading-right-column {
+  border: 1px solid white;
+  color: white;
+  padding: 0px 4px;
+  width:92%;
+  letter-spacing: -1.5px;
+  margin: 5px 20px 5px 20px;
+  background: linear-gradient(45deg, #1A3359, #1A3359 10%, #327AAB 30%, #368AB8 70%, #368AB8 90%, #2B6691 100%);
+}
+
+.main-heading {
+  line-height: 35px;
+  font-size:22px; 
+}
+
+h2 {
+  line-height: 25px;
+  font-size:16px; 
+  
+}
+
+h3 {
+  margin-top: -6px;
+  padding: 20px 35px 0px 28px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode";
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -1.5px;
+ 
+
+}
+
+img {
+  width: 100%; 
+  border-bottom: 5px solid white;
+  
+}
+
+
+
+ul {
+  list-style: none;
+}
+
+section article p {
+  padding: 5px 20px 10px 20px;
+  margin: 0;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+aside div {
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+div p, ul {
+
+  padding: 0px 45px 35px 28px;
+  font-size: 10px;
+}
+
+.top-space {
+  padding-top: 20px; 
+}
+
+a {
+  text-decoration: none;
+}
+
+span, a:visited {
+  color: #369;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: white;
+}
+
+a.design-name{
+  color: #000;
+}
+
+.main-container {
+  border: 5px solid white;
+  background: #9cf;
+}
+
+/* footer------------------------------- */
+
+footer {
+  background: linear-gradient(45deg, #1A3359, #1A3359 10%, #327AAB 30%, #368AB8 70%, #368AB8 90%, #2B6691 100%);
+  text-align: right;
+  line-height: 28px;
+  border-top: 1px solid white;
+}
+
+footer a.footer-link {
+  color: white;
+  
+  padding: 0 20px 0 0;
+}
+
+footer a.footer-link:hover {
+  color: #369;
+}
